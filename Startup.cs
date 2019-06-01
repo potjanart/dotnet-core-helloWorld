@@ -13,6 +13,8 @@ namespace HelloWeb
                 var a=5;
                 var b=10;
                 b=+20;
+                
+                throw new Exception("aaa111");
 
                 return context.Response.WriteAsync("Hello World!");
             });
