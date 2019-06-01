@@ -10,6 +10,10 @@ namespace HelloWeb
         {
             app.Run(context =>
             {
+                var a=5;
+                var b=10;
+                b=+20;
+
                 return context.Response.WriteAsync("Hello World!");
             });
         }
